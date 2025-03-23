@@ -44,14 +44,14 @@
       <!-- CTA -->
       <div class="text-center mt-12">
         <div class="inline-block p-1 rounded-2xl">
-          <a 
-            href="#"
+          <NuxtLink 
+            to="/meetups"
             class="group inline-flex items-center gap-3 rounded-xl bg-black px-8 py-4 text-base font-semibold text-white hover:bg-gray-900 transition-all duration-300"
           >
             <CalendarDays class="h-5 w-5" />
-            <span>View All Events</span>
+            <span>View All Meetups</span>
             <ArrowRight class="h-4 w-4 group-hover:translate-x-1 transition-transform" />
-          </a>
+          </NuxtLink>
         </div>
         <p class="mt-4 text-sm text-gray-500">Join our next meetup and connect with fellow builders</p>
       </div>

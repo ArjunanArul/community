@@ -9,17 +9,17 @@
             Building Kerala's largest product community, one innovation at a time.
           </p>
           <div class="flex space-x-4">
-            <a href="https://instagram.com/keralaproducthub" target="_blank" class="hover:text-white">
+            <a href="https://www.instagram.com/kerala.ph" target="_blank" class="hover:text-white">
               <Instagram class="h-5 w-5" />
             </a>
-            <a href="https://twitter.com/keralaproducthub" target="_blank" class="hover:text-white">
+            <a href="https://x.com/keralaph" target="_blank" class="hover:text-white">
               <Twitter class="h-5 w-5" />
             </a>
-            <a href="https://www.youtube.com/@FelixJosemonOfficial" target="_blank" class="hover:text-white">
+            <a href="https://www.youtube.com/@FelixJosemonOfficial/videos" target="_blank" class="hover:text-white">
               <Youtube class="h-5 w-5" />
             </a>
-            <a href="#" target="_blank" class="hover:text-white">
-              <MessageCircle class="h-5 w-5" />
+            <a href="https://in.linkedin.com/company/keralaph" target="_blank" class="hover:text-white">
+              <Linkedin class="h-5 w-5" />
             </a>
           </div>
         </div>
@@ -29,10 +29,10 @@
           <h3 class="text-white font-serif text-sm font-semibold mb-4">Quick Links</h3>
           <ul class="space-y-3 text-sm">
             <li><NuxtLink to="/accelerator" class="hover:text-white">Accelerator</NuxtLink></li>
-            <li><NuxtLink to="/investor-network" class="hover:text-white">Investor Network</NuxtLink></li>
-            <li><NuxtLink to="/jobs" class="hover:text-white">Jobs</NuxtLink></li>
-            <li><NuxtLink to="/wiki" class="hover:text-white">Wiki</NuxtLink></li>
-            <li><NuxtLink to="/blog" class="hover:text-white">Blog</NuxtLink></li>
+            <li><NuxtLink to="https://kph.vc" target="_blank" rel="noopener noreferrer" class="hover:text-white">Investor Network</NuxtLink></li>
+            <li><NuxtLink to="https://nas.io/kphjobs" target="_blank" rel="noopener noreferrer" class="hover:text-white">Jobs</NuxtLink></li>
+            <li><NuxtLink to="https://wiki.kph.club" target="_blank" rel="noopener noreferrer" class="hover:text-white">Wiki</NuxtLink></li>
+            <li><NuxtLink to="https://blog.kph.club" target="_blank" rel="noopener noreferrer" class="hover:text-white">Blog</NuxtLink></li>
           </ul>
         </div>
 
@@ -42,7 +42,7 @@
           <ul class="space-y-3 text-sm">
             <li><a href="https://wiki.kph.club" class="hover:text-white">Startup Wiki</a></li>
             <li><a href="#" class="hover:text-white">Events</a></li>
-            <li><a href="#" class="hover:text-white">Podcasts</a></li>
+            <li><a href="https://www.youtube.com/@FelixJosemonOfficial/videos" class="hover:text-white">Podcasts</a></li>
             <li><a href="#" class="hover:text-white">Community Guidelines</a></li>
           </ul>
         </div>
@@ -61,5 +61,5 @@
 </template>
 
 <script setup>
-import { Instagram, Twitter, Youtube, MessageCircle } from 'lucide-vue-next'
+import { Instagram, Twitter, Youtube, MessageCircle, Linkedin } from 'lucide-vue-next'
 </script> 
