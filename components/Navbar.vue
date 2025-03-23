@@ -34,9 +34,9 @@
           <a href="https://wiki.kph.club" target="_blank" rel="noopener noreferrer" class="text-gray-700 hover:text-emerald-600">
             Wiki
           </a>
-          <NuxtLink to="/blog" class="text-gray-700 hover:text-emerald-600">
+          <a href="https://blog.kph.club" target="_blank" rel="noopener noreferrer" class="text-gray-700 hover:text-emerald-600">
             Blog
-          </NuxtLink>
+          </a>
         </div>
 
         <!-- Right side social icons -->
@@ -74,9 +74,9 @@
           <a href="https://wiki.kph.club" target="_blank" rel="noopener noreferrer" class="block px-3 py-2 text-gray-700 hover:text-emerald-600">
             Wiki
           </a>
-          <NuxtLink to="/blog" class="block px-3 py-2 text-gray-700 hover:text-emerald-600">
+          <a href="https://blog.kph.club" target="_blank" rel="noopener noreferrer" class="block px-3 py-2 text-gray-700 hover:text-emerald-600">
             Blog
-          </NuxtLink>
+          </a>
         </div>
         <div class="pt-4 pb-3 border-t border-gray-200">
           <div class="flex space-x-6 px-3">
