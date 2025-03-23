@@ -1,22 +1,10 @@
-# Nuxt Minimal Starter
-
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+# KPH Club
 
 ## Setup
 
 Make sure to install dependencies:
 
 ```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
 bun install
 ```
 
@@ -25,16 +13,6 @@ bun install
 Start the development server on `http://localhost:3000`:
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
 bun run dev
 ```
 
@@ -43,33 +21,30 @@ bun run dev
 Build the application for production:
 
 ```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
 bun run build
 ```
 
 Locally preview production build:
 
 ```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
 bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Project Structure
+
+- `components/` - Vue components including the main Accelerator.vue
+- `assets/` - Static assets and CSS
+- `app.vue` - Main application entry point
+
+## Technologies Used
+
+- [Nuxt 3](https://nuxt.com) - The Vue Framework
+- [Tailwind CSS](https://tailwindcss.com) - Utility-first CSS framework
+- [Lucide Icons](https://lucide.dev) - Beautiful & consistent icons
+- [Bun](https://bun.sh) - Fast all-in-one JavaScript runtime & package manager
+
+## License
+
+MIT
+
+For more information about deployment, check out the [Nuxt deployment documentation](https://nuxt.com/docs/getting-started/deployment).
