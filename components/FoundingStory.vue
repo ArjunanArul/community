@@ -27,16 +27,6 @@
               Today, KPH thrives as an exclusive, invite-only community of around 1,000 top talents and startup founders. Members build impactful internet products, attend in-person meetups, explore engaging Malayalam podcasts, and share knowledge, fueling growth and inspiration.
             </p>
           </div>
-          <div class="mt-12">
-            <div class="inline-block">
-              <button class="group inline-flex items-center text-emerald-600 font-semibold gap-3 text-lg hover:gap-4 transition-all duration-300">
-                <span class="border-b-2 border-emerald-600/0 group-hover:border-emerald-600 transition-colors">
-                  Learn more about our journey
-                </span>
-                <ArrowRight class="h-6 w-6 group-hover:translate-x-1 transition-transform" />
-              </button>
-            </div>
-          </div>
         </div>
       </div>
     </div>
