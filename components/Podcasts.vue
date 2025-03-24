@@ -1,6 +1,6 @@
 <template>
   <!-- Reduce section padding -->
-  <section class="py-20 bg-white">
+  <section class="py-10 bg-white">
     <div class="max-w-7xl mx-auto px-6 lg:px-8">
       <!-- Header -->
       <div class="text-center max-w-2xl mx-auto mb-12">

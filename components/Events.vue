@@ -1,6 +1,6 @@
 <template>
   <!-- Warm light background -->
-  <section class="py-20 bg-sky-100">
+  <section class="py-10 bg-sky-100">
     <div class="max-w-7xl mx-auto px-6 lg:px-8">
       <!-- Header -->
       <div class="text-center max-w-2xl mx-auto mb-12">

@@ -41,9 +41,8 @@
           <h3 class="text-white font-serif text-sm font-semibold mb-4">Resources</h3>
           <ul class="space-y-3 text-sm">
             <li><a href="https://wiki.kph.club" class="hover:text-white">Startup Wiki</a></li>
-            <li><a href="#" class="hover:text-white">Events</a></li>
+            <li><NuxtLink to="/meetups" class="hover:text-white">Meetups</NuxtLink></li>
             <li><a href="https://www.youtube.com/@FelixJosemonOfficial/videos" class="hover:text-white">Podcasts</a></li>
-            <li><a href="#" class="hover:text-white">Community Guidelines</a></li>
           </ul>
         </div>
       </div>

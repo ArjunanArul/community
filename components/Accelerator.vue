@@ -6,7 +6,7 @@
         <div class="mx-auto max-w-2xl text-center">
           <div class="inline-block bg-emerald-100 px-4 py-2 rounded-lg mb-4 opacity-0 animate-fade-in">
             <h1 class="text-5xl font-bold tracking-tight text-emerald-600 sm:text-7xl">
-              KPH Builder Accelerator
+              KPH Builder Accelerator 🚀
             </h1>
           </div>
           <p class="mt-8 text-xl leading-8 text-gray-600 opacity-0 animate-fade-in animation-delay-400">
@@ -14,7 +14,7 @@
           </p>
           <div class="mt-8 opacity-0 animate-fade-in animation-delay-600">
             <a 
-              href="https://nas.io/kph"
+              href="https://tally.so/r/nrY5MN"
               target="_blank"
               class="group inline-flex items-center gap-3 rounded-lg bg-black px-8 py-4 text-lg font-semibold text-white hover:bg-gray-900 transition-all duration-300"
             >
@@ -71,7 +71,7 @@
           Join KPH Accelerator and get the support you need to take your product to the next level.
         </p>
         <a 
-          href="https://nas.io/kph"
+          href="https://tally.so/r/nrY5MN"
           target="_blank"
           class="group inline-flex items-center gap-3 rounded-lg bg-black px-8 py-4 text-lg font-semibold text-white hover:bg-gray-900 transition-all duration-300 opacity-0 animate-fade-in animation-delay-400"
         >

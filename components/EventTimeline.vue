@@ -137,6 +137,42 @@ const events = [
     "location": "Trivandrum",
     "description": "Join KPH at Huddle 2024, Kerala's biggest startup event, featuring pitches, networking, and insights from industry leaders.",
     "registrationUrl": null
+  },
+  {
+    "id": 5,
+    "name": "KPH Community Meetup",
+    "theme": "Startup Community",
+    "date": "October 2024",
+    "location": "Kochi",
+    "description": "A gathering of Kerala's startup community in Kochi to network, share insights, and collaborate.",
+    "registrationUrl": null
+  },
+  {
+    "id": 6,
+    "name": "KPH Ecommerce Meetup",
+    "theme": "Ecommerce",
+    "date": "May 2024",
+    "location": "Toronto",
+    "description": "A gathering of ecommerce community in Toronto to network, share insights, and collaborate.",
+    "registrationUrl": null
+  },
+  {
+    "id": 7,
+    "name": "KPH Community Meetup",
+    "theme": "Startup Community",
+    "date": "May 2024",
+    "location": "San Francisco",
+    "description": "A gathering of startup community in San Francisco to network, share insights, and collaborate.",
+    "registrationUrl": null
+  },
+  {
+    "id": 8,
+    "name": "KPH Community Meetup",
+    "theme": "Startup Community",
+    "date": "February 2024",
+    "location": "Kochi",
+    "description": "A gathering of startup community in Kochi to network, share insights, and collaborate.",
+    "registrationUrl": null
   }
 ]
 
