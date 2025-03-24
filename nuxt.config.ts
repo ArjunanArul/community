@@ -4,8 +4,39 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     '@nuxtjs/tailwindcss',
-    '@nuxt/fonts'
+    '@nuxt/fonts',
+    '@nuxtjs/sitemap',
   ],
+  site: {
+    url: 'https://kph.club'
+  },
+  sitemap: {
+    urls: [
+      {
+        url: '/',
+        changefreq: 'weekly',
+        priority: 1.0
+      },
+      {
+        url: '/accelerator',
+        changefreq: 'weekly',
+        priority: 0.9
+      },
+      {
+        url: '/meetups',
+        changefreq: 'weekly',
+        priority: 0.8
+      }
+    ],
+    exclude: [
+      '/404'
+    ],
+    defaults: {
+      changefreq: 'daily',
+      priority: 0.5,
+      lastmod: new Date().toISOString()
+    }
+  },
   tailwindcss: {
     exposeConfig: false,
     viewer: false,
