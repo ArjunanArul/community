@@ -34,6 +34,9 @@
           <a href="https://wiki.kph.club" target="_blank" rel="noopener noreferrer" class="text-gray-700 hover:text-emerald-600">
             Wiki
           </a>
+          <a href="https://launches.kph.club" target="_blank" rel="noopener noreferrer" class="text-gray-700 hover:text-orange-600">
+            Launches
+          </a>
           <a href="https://blog.kph.club" target="_blank" rel="noopener noreferrer" class="text-gray-700 hover:text-emerald-600">
             Blog
           </a>
@@ -73,6 +76,9 @@
           </a>
           <a href="https://wiki.kph.club" target="_blank" rel="noopener noreferrer" class="block px-3 py-2 text-gray-700 hover:text-emerald-600">
             Wiki
+          </a>
+          <a href="https://launches.kph.club" target="_blank" rel="noopener noreferrer" class="block px-3 py-2 text-gray-700 hover:text-orange-600">
+            Launches
           </a>
           <a href="https://blog.kph.club" target="_blank" rel="noopener noreferrer" class="block px-3 py-2 text-gray-700 hover:text-emerald-600">
             Blog

@@ -4,6 +4,7 @@
     <Hero />
     <LogoScroll />
     <FoundingStory />
+    <RecentLaunches />
     <Podcasts />
     <Events />
     <Wiki />
@@ -13,6 +14,7 @@
 </template>
 
 <script setup>
+import RecentLaunches from '~/components/RecentLaunches.vue'
 useHead({
   htmlAttrs: {
     lang: 'en'
