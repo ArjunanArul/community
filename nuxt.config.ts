@@ -6,7 +6,13 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxt/fonts',
     '@nuxtjs/sitemap',
+    'nuxt-umami',
   ],
+  umami: {
+    id: 'ac831b9d-bc42-4c1c-b187-5a78c30a1cf3',
+    host: 'https://cloud.umami.is',
+    autoTrack: true,
+  },
   site: {
     url: 'https://kph.club'
   },
