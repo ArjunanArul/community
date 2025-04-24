@@ -1,7 +1,12 @@
 <template>
   <div>
     <Navbar />
-    <Hero />
+<AnnouncementBanner
+  message="🚀 KPH founder’s PerfAgents acquired by Testing Mavens in key deal"
+  type="success"
+  cta="Read More"
+  ctaLink="https://finance.yahoo.com/news/testing-mavens-acquires-perfagents-perfagents-160000503.html"
+/>    <Hero />
     <LogoScroll />
     <FoundingStory />
     <RecentLaunches />
@@ -15,6 +20,7 @@
 
 <script setup>
 import RecentLaunches from '~/components/RecentLaunches.vue'
+import AnnouncementBanner from '~/components/AnnouncementBanner.vue'
 useHead({
   htmlAttrs: {
     lang: 'en'
