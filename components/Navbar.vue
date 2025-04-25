@@ -19,6 +19,9 @@
 
         <!-- Desktop navigation -->
         <div class="hidden md:flex md:space-x-8">
+          <NuxtLink to="/hack" class="text-gray-700 hover:text-emerald-600">
+            Hackathon
+          </NuxtLink>
           <NuxtLink to="/accelerator" class="text-gray-700 hover:text-emerald-600">
             Accelerator
           </NuxtLink>
@@ -62,6 +65,9 @@
       <!-- Mobile menu -->
       <div v-show="isOpen" class="md:hidden">
         <div class="pt-2 pb-3 space-y-1">
+          <NuxtLink to="/hack" class="block px-3 py-2 text-gray-700 hover:text-emerald-600">
+            Hackathon
+          </NuxtLink>
           <NuxtLink to="/accelerator" class="block px-3 py-2 text-gray-700 hover:text-emerald-600">
             Accelerator
           </NuxtLink>
