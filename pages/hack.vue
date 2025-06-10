@@ -1,6 +1,6 @@
 <template>
-    <Navbar/>
-      <div class="max-w-7xl mx-auto px-4 sm:px-6">
+  <Navbar/>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6">
     <!-- HERO SECTION: Styled like components/Hero.vue -->
     <section class="bg-white py-12 sm:py-16">
       <div class="mx-auto max-w-2xl text-center">
@@ -15,19 +15,13 @@
         <p class="mt-6 sm:mt-8 text-base sm:text-xl leading-7 sm:leading-8 text-gray-600 opacity-0 animate-fade-in animation-delay-200">
           Get notified when the KPH Hackathon launches. Build and launch successful products from Kerala! Win funding, GTM support, and prizes.
         </p>
-        <!-- Waitlist form styled as CTA -->
-        <div class="mt-6 sm:mt-8">
-          <form @submit.prevent="submitWaitlist" class="group flex flex-col sm:flex-row items-center gap-3 sm:gap-3 justify-center max-w-xl mx-auto w-full">
-            <input v-model="email" type="email" required placeholder="Enter your email" class="rounded-lg border border-gray-300 px-4 py-3 text-base sm:text-lg w-full sm:w-72 focus:ring-2 focus:ring-emerald-200 focus:outline-none transition-all duration-200 shadow-sm" />
-            <button type="submit" :disabled="loading" class="inline-flex items-center gap-2 rounded-lg bg-black px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg font-semibold text-white hover:bg-gray-900 transition-all duration-300 min-w-[120px] sm:min-w-[160px] justify-center disabled:opacity-60 disabled:cursor-not-allowed">
-              <span v-if="!loading">Join Waitlist</span>
-              <span v-else>Joining...</span>
-              <ArrowRight class="h-5 w-5 group-hover:translate-x-1 transition-transform" />
-            </button>
-          </form>
+        <!-- JOIN NOW CTA -->
+        <div class="mt-6 sm:mt-8 text-center">
+          <a href="https://tally.so/r/w7zrD6" target="_blank" class="inline-flex items-center justify-center gap-2 rounded-lg bg-black px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg font-semibold text-white hover:bg-gray-900 transition-all duration-300 min-w-[120px] sm:min-w-[160px]">
+            JOIN NOW
+            <ArrowRight class="h-5 w-5 group-hover:translate-x-1 transition-transform" />
+          </a>
         </div>
-        <p v-if="success" class="mt-4 text-green-600 font-medium animate-fade-in">Thank you for joining the waitlist!</p>
-        <p v-if="error" class="mt-4 text-red-600 font-medium animate-fade-in">Something went wrong. Please try again.</p>
       </div>
     </section>
 
@@ -193,42 +187,15 @@
       <Rocket class="h-5 w-5" />
       Support the Hackathon
     </button>
-      </div>
-    <Footer/>
+  </div>
+  <Footer/>
 </template>
 
 <script setup>
 import { ref } from 'vue'
 import { ArrowRight, Rocket, Wallet, Gift } from 'lucide-vue-next'
 
-const email = ref('')
-const loading = ref(false)
-const success = ref(false)
-const error = ref(false)
-
-async function submitWaitlist() {
-  loading.value = true
-  success.value = false
-  error.value = false
-  try {
-    const formData = new FormData();
-    formData.append('email', email.value);
-    await fetch('https://script.google.com/macros/s/AKfycby1gmPIUHEJm_4aYO_hcXNkY2DbgFv95LKpwFZxkpqElyOiY2W0_fnIKNjPKlZog390VQ/exec', {
-      method: 'POST',
-      mode: 'no-cors',
-      body: formData
-    });
-    // no-cors: can't read response, assume success
-    success.value = true;
-    email.value = '';
-  } catch (error) {
-    error.value = true;
-  } finally {
-    loading.value = false;
-  }
-}
-
-function sponsorCTA() {
+const sponsorCTA = () => {
   window.open('https://api.whatsapp.com/send/?phone=917025437098&text=Hi%2C+I%27d+love+to+sponsor+and+support+the+hackathon', '_blank')
 }
 </script>
