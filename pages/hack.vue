@@ -17,7 +17,7 @@
         </p>
         <!-- JOIN NOW CTA -->
         <div class="mt-6 sm:mt-8 text-center">
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdBuFNEMLgs5OL8kSIbrzaQoyShcIgHHwV65A0GAS4kLDUdCQ/viewform?usp=send_form">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdBuFNEMLgs5OL8kSIbrzaQoyShcIgHHwV65A0GAS4kLDUdCQ/viewform?usp=send_form" target="_blank" class="inline-flex items-center justify-center gap-2 rounded-lg bg-black px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg font-semibold text-white hover:bg-gray-900 transition-all duration-300 min-w-[120px] sm:min-w-[160px]">
             JOIN NOW
             <ArrowRight class="h-5 w-5 group-hover:translate-x-1 transition-transform" />
           </a>
