@@ -83,8 +83,8 @@ const typeClass = computed(() => `announcement-banner--${props.type}`)
   background: #f5faff;
 }
 .announcement-banner--success {
-  border-color: #bbf7d0;
-  background: #f0fdf4;
+  border-color: #dbeafe;
+  background: #eff6ff;
 }
 .announcement-banner--warning {
   border-color: #fde68a;

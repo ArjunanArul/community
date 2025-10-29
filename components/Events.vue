@@ -26,11 +26,11 @@
           </div>
           <div class="p-5">
             <div class="inline-flex items-center gap-2">
-              <div class="bg-orange-100 px-2.5 py-1 rounded-md">
-                <time class="text-sm font-medium text-orange-700">{{ event.date }}</time>
+              <div class="bg-green-200 px-2.5 py-1 rounded-md">
+                <time class="text-sm font-medium text-green-700">{{ event.date }}</time>
               </div>
-              <div class="bg-emerald-100 px-2.5 py-1 rounded-md">
-                <span class="text-sm font-medium text-emerald-700">{{ event.location }}</span>
+              <div class="glass-blue-sm px-2.5 py-1 rounded-glass-sm">
+                <span class="text-sm font-medium text-blue-700">{{ event.location }}</span>
               </div>
             </div>
             <h3 class="mt-3 text-xl font-semibold text-gray-900 leading-tight group-hover:text-gray-700">

@@ -43,6 +43,17 @@ export default defineNuxtConfig({
       lastmod: new Date().toISOString()
     }
   },
+  app: {
+    head: {
+      link: [
+        { rel: 'shortcut icon', href: '/favicon.ico?v=4' },
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico?v=4' },
+        { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon.png?v=4' },
+        { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon.png?v=4' },
+        { rel: 'apple-touch-icon', sizes: '180x180', href: '/favicon.png?v=4' }
+      ]
+    }
+  },
   tailwindcss: {
     exposeConfig: false,
     viewer: false,
@@ -57,8 +68,11 @@ export default defineNuxtConfig({
       theme: {
         extend: {
           fontFamily: {
-            sans: ['Nunito Sans', 'sans-serif'],
-            serif: ['Merriweather', 'serif'],
+            sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'sans-serif'],
+            serif: ['Playfair Display', 'Times New Roman', 'Times', 'serif'],
+            mono: ['JetBrains Mono', 'Fira Code', 'Monaco', 'Cascadia Code', 'Roboto Mono', 'Source Code Pro', 'monospace'],
+            display: ['Playfair Display', 'Times New Roman', 'Times', 'serif'],
+            body: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'sans-serif'],
           },
           colors: {
             primary: {
@@ -89,11 +103,11 @@ export default defineNuxtConfig({
             },
             accent: {
               blue: '#00B1F0',
-              purple: '#9C27B0',
-              pink: '#FF1493',
-              orange: '#FF6B2B',
+              purple: '#10B981',
+              pink: '#10B981',
+              orange: '#10B981',
               green: '#00C853',
-              yellow: '#FFD600',
+              yellow: '#10B981',
             }
           },
           keyframes: {
@@ -118,12 +132,16 @@ export default defineNuxtConfig({
   fonts: {
     families: [
       {
-        name: 'Nunito Sans',
-        weights: [400, 500, 600, 700],
+        name: 'Inter',
+        weights: [100, 200, 300, 400, 500, 600, 700, 800, 900],
       },
       {
-        name: 'Merriweather',
-        weights: [400, 700],
+        name: 'Playfair Display',
+        weights: [400, 500, 600, 700, 800, 900],
+      },
+      {
+        name: 'JetBrains Mono',
+        weights: [100, 200, 300, 400, 500, 600, 700, 800],
       }
     ]
   }

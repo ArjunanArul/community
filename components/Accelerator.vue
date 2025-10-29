@@ -4,8 +4,8 @@
     <section class="py-20 sm:py-28 bg-white border-b">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="mx-auto max-w-2xl text-center">
-          <div class="inline-block bg-emerald-100 px-4 py-2 rounded-lg mb-4 opacity-0 animate-fade-in">
-            <h1 class="text-5xl font-bold tracking-tight text-emerald-600 sm:text-7xl">
+          <div class="inline-block glass-blue px-4 py-2 rounded-glass mb-4 opacity-0 animate-fade-in">
+            <h1 class="text-5xl font-bold tracking-tight text-blue-600 sm:text-7xl">
               KPH Builder Accelerator 🚀
             </h1>
           </div>
@@ -32,8 +32,8 @@
     <section class="py-20 bg-white border-b">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center max-w-2xl mx-auto mb-12">
-          <div class="inline-block bg-amber-100 px-4 py-2 rounded-lg mb-4 opacity-0 animate-fade-in">
-            <h2 class="text-3xl font-bold tracking-tight text-amber-600 sm:text-4xl">How We Help</h2>
+          <div class="inline-block bg-green-100 px-4 py-2 rounded-lg mb-4 opacity-0 animate-fade-in">
+            <h2 class="text-3xl font-bold tracking-tight text-green-600 sm:text-4xl">How We Help</h2>
           </div>
           <p class="mt-4 text-lg leading-8 text-gray-600 opacity-0 animate-fade-in animation-delay-200">
             Comprehensive support to help you build and scale your product
@@ -48,7 +48,7 @@
           >
             <component 
               :is="feature.icon" 
-              class="h-8 w-8 text-emerald-600 mb-4"
+              class="h-8 w-8 text-blue-600 mb-4"
             />
             <h3 class="text-lg font-semibold text-gray-900 mb-2">
               {{ feature.title }}
@@ -60,10 +60,10 @@
     </section>
 
     <!-- CTA -->
-    <section class="py-20 bg-emerald-50">
+    <section class="py-20 bg-blue-50">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <div class="inline-block bg-emerald-100 px-4 py-2 rounded-lg mb-4 opacity-0 animate-fade-in">
-          <h2 class="text-3xl font-bold tracking-tight text-emerald-600 sm:text-4xl">
+        <div class="inline-block glass-blue px-4 py-2 rounded-glass mb-4 opacity-0 animate-fade-in">
+          <h2 class="text-3xl font-bold tracking-tight text-blue-600 sm:text-4xl">
             Ready to Accelerate Your Growth?
           </h2>
         </div>

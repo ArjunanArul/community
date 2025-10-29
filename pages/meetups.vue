@@ -25,7 +25,9 @@
       { name: 'twitter:image', content: '/og-image.png' }
     ],
     link: [
-      { rel: 'icon', type: 'image/png', href: '/favicon.png' }
+      { rel: 'shortcut icon', href: '/favicon.ico?v=4' },
+      { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon.png?v=4' },
+      { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon.png?v=4' }
     ]
   })
   </script>

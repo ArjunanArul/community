@@ -3,8 +3,8 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <!-- Header -->
       <div class="text-center max-w-2xl mx-auto mb-8 sm:mb-12 opacity-0 animate-fade-in">
-        <div class="inline-block bg-purple-100 px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg mb-4">
-          <h2 class="text-2xl sm:text-3xl font-bold tracking-tight text-purple-600 sm:text-4xl">
+        <div class="inline-block bg-green-100 px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg mb-4">
+          <h2 class="text-2xl sm:text-3xl font-bold tracking-tight text-green-600 sm:text-4xl">
             Meetups Timeline
           </h2>
         </div>
@@ -16,7 +16,7 @@
       <!-- Timeline -->
       <div class="relative max-w-3xl mx-auto">
         <!-- Vertical Line -->
-        <div class="absolute left-2 sm:left-4 top-0 bottom-0 w-0.5 bg-purple-200 origin-top animate-grow-down"></div>
+        <div class="absolute left-2 sm:left-4 top-0 bottom-0 w-0.5 bg-green-200 origin-top animate-grow-down"></div>
 
         <!-- Timeline Items -->
         <div class="space-y-8 sm:space-y-12">
@@ -26,7 +26,7 @@
             :style="`animation-delay: ${400 + (event.id * 150)}ms`"
           >
             <!-- Timeline Dot -->
-            <div class="absolute left-0 top-3 w-6 h-6 sm:w-8 sm:h-8 rounded-full border-4 border-purple-200 bg-white group-hover:border-purple-400 transition-colors duration-300 animate-scale-in" 
+            <div class="absolute left-0 top-3 w-6 h-6 sm:w-8 sm:h-8 rounded-full border-4 border-green-200 bg-white group-hover:border-green-400 transition-colors duration-300 animate-scale-in" 
               :style="`animation-delay: ${500 + (event.id * 150)}ms`">
             </div>
             
@@ -34,14 +34,14 @@
             <div class="bg-white rounded-xl border p-4 sm:p-6 hover:shadow-sm transition-all duration-300">
               <!-- Tags -->
               <div class="flex flex-wrap gap-2 mb-3">
-                <div class="bg-purple-100 px-2 py-0.5 sm:px-2.5 sm:py-1 rounded-md">
-                  <time class="text-xs sm:text-sm font-medium text-purple-700">{{ event.date }}</time>
+                <div class="bg-green-100 px-2 py-0.5 sm:px-2.5 sm:py-1 rounded-md">
+                  <time class="text-xs sm:text-sm font-medium text-green-700">{{ event.date }}</time>
                 </div>
-                <div class="bg-emerald-100 px-2 py-0.5 sm:px-2.5 sm:py-1 rounded-md">
-                  <span class="text-xs sm:text-sm font-medium text-emerald-700">{{ event.location }}</span>
+                <div class="glass-blue-sm px-2 py-0.5 sm:px-2.5 sm:py-1 rounded-glass-sm">
+                  <span class="text-xs sm:text-sm font-medium text-blue-700">{{ event.location }}</span>
                 </div>
-                <div class="bg-amber-100 px-2 py-0.5 sm:px-2.5 sm:py-1 rounded-md">
-                  <span class="text-xs sm:text-sm font-medium text-amber-700">{{ event.theme }}</span>
+                <div class="bg-green-100 px-2 py-0.5 sm:px-2.5 sm:py-1 rounded-md">
+                  <span class="text-xs sm:text-sm font-medium text-green-700">{{ event.theme }}</span>
                 </div>
               </div>
 
@@ -58,7 +58,7 @@
                   :href="event.registrationUrl"
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="inline-flex items-center gap-1.5 sm:gap-2 text-purple-600 text-xs sm:text-sm font-medium group-hover:text-purple-700"
+                  class="inline-flex items-center gap-1.5 sm:gap-2 text-green-600 text-xs sm:text-sm font-medium group-hover:text-green-700"
                 >
                   Register Now
                   <ArrowRight class="h-3 w-3 sm:h-4 sm:w-4 group-hover:translate-x-1 transition-transform" />
@@ -74,7 +74,7 @@
           <button 
             @click="currentPage--"
             :disabled="currentPage === 1"
-            class="px-3 py-1.5 sm:px-4 sm:py-2 text-sm rounded-md bg-purple-100 text-purple-700 disabled:opacity-50 disabled:cursor-not-allowed"
+            class="px-3 py-1.5 sm:px-4 sm:py-2 text-sm rounded-md bg-green-100 text-green-700 disabled:opacity-50 disabled:cursor-not-allowed"
           >
             Previous
           </button>
@@ -84,7 +84,7 @@
           <button 
             @click="currentPage++"
             :disabled="currentPage === totalPages"
-            class="px-3 py-1.5 sm:px-4 sm:py-2 text-sm rounded-md bg-purple-100 text-purple-700 disabled:opacity-50 disabled:cursor-not-allowed"
+            class="px-3 py-1.5 sm:px-4 sm:py-2 text-sm rounded-md bg-green-100 text-green-700 disabled:opacity-50 disabled:cursor-not-allowed"
           >
             Next
           </button>

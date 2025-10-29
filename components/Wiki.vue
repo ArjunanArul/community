@@ -22,15 +22,15 @@
         >
           <div class="flex items-start gap-4">
             <div class="flex-shrink-0 mt-1 transform-gpu group-hover:rotate-12 transition-transform duration-300">
-              <CreditCard class="h-6 w-6 text-emerald-600" />
+              <CreditCard class="h-6 w-6 text-blue-600" />
             </div>
             <div class="flex-1">
               <div class="flex gap-2 mb-3">
-                <div class="bg-blue-100 px-2.5 py-1 rounded-md">
+                <div class="glass-blue-sm px-2.5 py-1 rounded-glass-sm">
                   <span class="text-sm font-medium text-blue-700">Guide</span>
                 </div>
-                <div class="bg-amber-100 px-2.5 py-1 rounded-md">
-                  <span class="text-sm font-medium text-amber-700">2 min read</span>
+                <div class="bg-green-200 px-2.5 py-1 rounded-md">
+                  <span class="text-sm font-medium text-green-700">2 min read</span>
                 </div>
               </div>
               <h3 class="text-xl font-semibold text-gray-900 group-hover:text-gray-700">
@@ -44,13 +44,13 @@
             </div>
           </div>
           <!-- Hover line effect -->
-          <div class="absolute bottom-0 left-0 w-0 h-0.5 bg-emerald-500 group-hover:w-full transition-all duration-500"></div>
+          <div class="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-500 group-hover:w-full transition-all duration-500"></div>
         </article>
       </div>
 
       <!-- CTA -->
       <div class="text-center mt-12">
-        <div class="inline-block bg-emerald-50 p-1 rounded-2xl">
+        <div class="inline-block bg-blue-50 p-1 rounded-2xl">
           <a 
             href="https://wiki.kph.club"
             target="_blank"
